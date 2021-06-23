@@ -19,7 +19,7 @@ public class User {
     private String password;
     private  long MobileNo;
 
-    @OneToMany(mappedBy = "user")
-
-    private List<Task> taskList;
+//    @OneToMany(mappedBy = "user")
+//
+//    private List<Task> taskList;
 }

@@ -17,8 +17,6 @@ public class Task {
     private String taskInfo;
     private String date;
 
-    @ManyToOne
-    @JoinColumn(name = "user_id")
-    private User user;
+
 
 }
